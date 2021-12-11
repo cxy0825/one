@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body,
+      html {
+        scroll-behavior: smooth;
+      }
+      th {
+        border: 1px solid #000;
+      }
+      td {
+        width: 80px;
+        text-align: center;
+      }
+      img {
+        width: 100%;
+      }
+      .fix {
+        position: fixed;
+        top: 10%;
+        right: 15%;
+      }
+      .fix a {
+        color: #000;
+      }
+      .fix a:link {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fix">
+      <h3>导航栏</h3>
+      <div><a href="#a">去表头</a></div>
+      <div><a href="#b">看姓名</a></div>
+      <div><a href="#e">专业课程</a></div>
+      <div><a href="#f">获得的证书</a></div>
+      <div><a href="#h">工作经历</a></div>
+      <div><a href="#t">作品</a></div>
+    </div>
+    <div class="tabContain">
+      <table cellspacing="0" border="1px" align="center">
+        <tr>
+          <th colspan="6">简历</th>
+        </tr>
+        <tr id="a">
+          <td>姓名</td>
+          <td>张三</td>
+          <td>性别</td>
+          <td>男</td>
+          <td colspan="2" rowspan="4">
+            <img
+              src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fitem%2F201506%2F15%2F20150615010338_8wC2u.thumb.700_0.jpeg&refer=http%3A%2F%2Fimg3.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638776185&t=95c04341f037b7457c97b842db92fe3c"
+              alt=""
+            />
+          </td>
+        </tr>
+        <tr id="b">
+          <td>出生</td>
+          <td>2020.1</td>
+          <td>政治面貌</td>
+          <td>团员</td>
+        </tr>
+        <tr id="c">
+          <td colspan="2">民族不详</td>
+          <td>籍贯</td>
+          <td rowspan="2">体重</td>
+        </tr>
+        <tr id="d">
+          <td colspan="2">身高不详</td>
+          <td>浙江绍兴</td>
+        </tr>
+        <tr id="e">
+          <td style="background-color: rgb(163, 163, 163)">专业课程</td>
+          <td colspan="5">
+            <p>学了，啊吧不啊吧把巴巴变爱吧吧把吧爱吧</p>
+            <p>学了，啊吧不啊吧把巴巴变爱吧吧把吧爱吧</p>
+            <p>学了，啊吧不啊吧把巴巴变爱吧吧把吧爱吧</p>
+          </td>
+        </tr>
+        <tr id="f">
+          <td style="background-color: rgb(163, 163, 163)">获得证书</td>
+          <td colspan="5">
+            <p>2021/2/1获得了xxx证书</p>
+            <p>2021/2/1获得了xxx证书</p>
+            <p>2021/2/1获得了xxx证书</p>
+          </td>
+        </tr>
+        <tr id="h">
+          <td style="background-color: rgb(163, 163, 163)">工作经历</td>
+          <td colspan="5">
+            <p>2018-2021在哪里哪里敢了什么什么的</p>
+            <p>2018-2021在哪里哪里敢了什么什么的</p>
+            <p>2018-2021在哪里哪里敢了什么什么的</p>
+            <p>2018-2021在哪里哪里敢了什么什么的</p>
+            <p>2018-2021在哪里哪里敢了什么什么的</p>
+            <p>2018-2021在哪里哪里敢了什么什么的</p>
+            <p>2018-2021在哪里哪里敢了什么什么的</p>
+            <p>2018-2021在哪里哪里敢了什么什么的</p>
+          </td>
+        </tr>
+        <tr id="t">
+          <td style="background-color: rgb(163, 163, 163)">我的作品</td>
+          <td colspan="5">
+            <p>
+              <a href="http://101.132.242.117/" target="_blank"
+                >在线看坤坤打篮球</a
+              >
+            </p>
+            <p>
+              <a href="http://101.132.242.117/wy" target="_blank"
+                >在线网易云音乐</a
+              >
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
